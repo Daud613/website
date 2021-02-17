@@ -13,7 +13,8 @@ else {
 	<div class="collection_info">
 		<div class="colindextitle <?php echo $complete ? "complete" : "incomplete";?>">
 			<div class="arabic"><?php echo $collection->arabicTitle; ?></div>
-			<div class="english"><?php echo $collection->englishTitle;?></div>
+                        <div class="english"><?php echo $collection->englishTitle;?></div>
+                        <div class="thai"><?php echo $collection->thaiTitle;?></div>
 			<div class=clear></div>
 		</div>
 		<?php if (isset($fullblocks)) { ?>
@@ -62,6 +63,9 @@ else {
 
 						echo "<div class=\"english english_book_name\">";
 						echo $entry->englishBookName."</div>";
+
+                                                echo "<div class=\"thai thai_book_name\">";
+						echo $entry->thaiBookName."</div>";
 
 						echo "<div class=\"arabic arabic_book_name\">".$entry->arabicBookName."</div>";
 						echo '</a>';
