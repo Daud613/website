@@ -45,6 +45,7 @@
 					<div class=collection_title>
 						<a href="/<?php echo $collection['name']; ?>" style="display: inline;">
 							<div class=english_collection_title><?php echo $collection['englishTitle']; ?></div>
+							<div class=thai_collection_title><?php echo $collection['thaiTitle']; ?></div>
 							<div class="arabic arabic_collection_title"><?php echo $collection['arabicTitle']; ?></div>
                    		</a>
                     	<div class="clear"></div>
@@ -60,6 +61,7 @@
 					<div class=collection_title>			
 						<a href="/<?php echo $collection['name']; ?>" style="display: inline;">
 							<div class=english_collection_title><?php echo $collection['englishTitle']; ?></div>
+			                                <div class=thai_collection_title><?php echo $collection['thaiTitle']; ?></div>
 							<div class="arabic arabic_collection_title"><?php echo $collection['arabicTitle']; ?></div>
                         </a>
 						<div class="clear"></div>
