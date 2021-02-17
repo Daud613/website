@@ -190,7 +190,7 @@ class CollectionController extends SController
         }
 
 		if (strcmp($_escaped_fragment_, "default") !== 0) {
-			//if ($this->_book->indonesianBookID > 0) $this->_otherlangs['indonesian'] = $this->_book->fetchLangHadith("indonesian");
+			if ($this->_book->malayBookID > 0) $this->_otherlangs['malay'] = $this->_book->fetchLangHadith("malay");
             if ($this->_book->urduBookID > 0) {
                 $this->_otherlangs['urdu'] = $this->_book->fetchLangHadith("urdu");
                 $viewVars['otherlangs'] = $this->_otherlangs;
