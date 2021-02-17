@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <?php if (isset($this->params['book']) and (
-			//$this->params['book']->indonesianBookID > 0 or
+			$this->params['book']->malayBookID > 0 or
 			$this->params['book']->urduBookID > 0
 			)
 		) echo "<meta name=\"fragment\" content=\"!\">\n"; ?>
@@ -40,7 +40,7 @@
 
   <?php if (isset($this->params['book'])) { 
 	$langarray = array();
-	//if ($this->params['book']->indonesianBookID > 0) $langarray[] = 'indonesian';
+	if ($this->params['book']->malayBookID > 0) $langarray[] = 'malay';
 	if ($this->params['book']->urduBookID > 0) $langarray[] = 'urdu'; ?>
 
 	<script>
