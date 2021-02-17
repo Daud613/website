@@ -14,6 +14,7 @@ use Util;
  * @property integer $collectionID
  * @property string $type
  * @property string $englishTitle
+ * @property string $thaiTitle
  * @property string $arabicTitle
  * @property string $hasvolumes
  * @property string $hasbooks
@@ -62,6 +63,7 @@ class Collection extends ActiveRecord
             'collectionID' => 'Collection',
             'type' => 'Type',
             'englishTitle' => 'English Title',
+            'thaiTitle' => 'Thai Title',
             'arabicTitle' => 'Arabic Title',
             'hasvolumes' => 'Hasvolumes',
             'hasbooks' => 'Hasbooks',
