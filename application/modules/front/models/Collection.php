@@ -62,7 +62,7 @@ class Collection extends ActiveRecord
             'name' => 'Name',
             'collectionID' => 'Collection',
             'type' => 'Type',
-            'englishTitle' => 'English Title',
+            //'englishTitle' => 'English Title',
             'thaiTitle' => 'Thai Title',
             'arabicTitle' => 'Arabic Title',
             'hasvolumes' => 'Hasvolumes',
